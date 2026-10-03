@@ -1,40 +1,24 @@
-# Logsfolio – Free tailwind CSS & Next.js Portfolio Website Template
-#### Preview
+# Nilakshi Roy — Portfolio
 
- - [Demo](https://themewagon.github.io/logsfolio/)
+This is the source code for my personal portfolio website, built with Next.js.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/logsfolio/)
+## Run locally
 
-## Getting Started
-
-1. Clone Repository
-```
-git clone https://github.com/themewagon/logsfolio.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
-
-```bash
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-## Author 
-```
-Design and code is completely written by Logging Studio and development team. 
-```
+## Deployment
 
-## License
+Pushes to `main` are automatically built and deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`. The published site URL is:
 
- - Design and Code is Copyright &copy; <a href="https://github.com/Logging-Studio" target="_blank">Logging Studio</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+https://roynilakshi91.github.io/Nilakshi_new_portfolio/
+
+If Pages has not been enabled for the repository yet, open **Settings → Pages** on GitHub and select **GitHub Actions** as the build and deployment source.
+
+## Original template
+
+This portfolio is based on the [Logsfolio template](https://themewagon.github.io/logsfolio/) by Logging Studio and ThemeWagon.
+
+The original template design and code are copyright © [Logging Studio](https://github.com/Logging-Studio) and are distributed by [ThemeWagon](https://themewagon.com/) under the MIT license.

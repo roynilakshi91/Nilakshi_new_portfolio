@@ -18,6 +18,8 @@ import {
 } from "@radix-ui/react-icons";
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default async function Home() {
   const data = await getJSONData();
 
@@ -31,7 +33,7 @@ export default async function Home() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
-              src="/assets/profile_1.jpg"
+              src={`${basePath}/assets/profile_1.jpg`}
               width={280}
               height={280}
               alt="Nilakshi Roy"
@@ -104,7 +106,11 @@ export default async function Home() {
               <div className="w-full lg:w-1/2 p-3 flex items-center">
                 {project.image ? (
                   <Image
-                    src={project.image}
+                    src={
+                      project.image.startsWith("/")
+                        ? `${basePath}${project.image}`
+                        : project.image
+                    }
                     width={1340}
                     height={776}
                     alt={`${project.title} screenshot`}
