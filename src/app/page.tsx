@@ -59,7 +59,11 @@ export default async function Home() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <Link href={data.contactInfo.resume} target="_blank">
+              <Link
+                href={`${basePath}${data.contactInfo.resume}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button>
                   <FileTextIcon className="h-4 w-4 mr-2" />
                   Resume
