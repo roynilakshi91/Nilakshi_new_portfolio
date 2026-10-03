@@ -34,7 +34,7 @@ jobs:
         run: npm run build
         env:
           GITHUB_PAGES: "true"
-          NEXT_PUBLIC_BASE_PATH: /Nilakshi_new_portfolio
+          NEXT_PUBLIC_BASE_PATH: /Nilakshi_Roy_portfolio
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

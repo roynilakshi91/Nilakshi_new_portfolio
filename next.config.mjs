@@ -7,7 +7,7 @@ const nextConfig = {
     ...(isGitHubPages
         ? {
               output: 'export',
-              basePath: '/Nilakshi_new_portfolio',
+              basePath: '/Nilakshi_Roy_portfolio',
               trailingSlash: true,
               images: { unoptimized: true },
           }
