@@ -1,0 +1,235 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Home",
+          "path": "#home"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": false
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Nilakshi Roy",
+    "title": "Data Scientist",
+    "location": "San Jose, CA",
+    "bio": "Data Science professional with 5+ years of experience in advanced analytics, machine learning, and business intelligence. Skilled in Python, SQL, machine learning, experimentation, KPI development, data visualization, and scalable data pipelines. Recently focused on AI-driven workflow automation and Agentic AI applications."
+  },
+  "contactInfo": {
+    "email": "roynilakshiwork@gmail.com",
+    "phone": "",
+    "linkedin": "https://www.linkedin.com/in/nilakshiroy/?isSelfProfile=true",
+    "twitter": "",
+    "github": "https://github.com/roynilakshi91",
+    "website": "https://roynilakshi91.github.io/NilakshiRoy.portfolio/",
+    "resume": "/Nilakshi_Roy_Resume.pdf"
+  },
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks": [
+      "Scikit-learn",
+      "XGBoost",
+      "CatBoost",
+      "PyTorch",
+      "LightGBM",
+      "PySpark"
+    ],
+    "databases": [
+      "SQL",
+      "Hive"
+    ],
+    "tools": [
+      "Pandas",
+      "NumPy",
+      "Tableau",
+      "Streamlit",
+      "GCP",
+      "Git"
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Customer Retention Intelligence",
+      "description": "An end-to-end customer retention intelligence solution that predicts churn risk, identifies key drivers, estimates revenue at risk, and supports targeted retention strategies through experimentation and ROI analysis.",
+      "technologies": [
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "XGBoost",
+    "SHAP",
+    "Streamlit"
+], 
+      "image": "/assets/churn_app_screen.jpg",
+      "pipeline": 
+      "Churn Prediction \u2192 SHAP \u2192 Revenue at Risk \u2192 Retention Targeting \u2192 Causal Inference & A/B Testing \u2192 ROI Analysis \u2192 Streamlit Deployment",
+      "live_url": "https://roynilakshi91-customer-retention-intelligence-app-1-n5saof.streamlit.app/",
+      "code_repo_url": "https://github.com/roynilakshi91/Customer-Retention-Intelligence/blob/main/README.md"
+    },
+    {
+      "id": "2",
+      "title": "Sentiment Analysis",
+      "description": "NLP project for analyzing text data and classifying sentiment using Python and natural language processing techniques.",
+      "technologies": [
+        "Python",
+        "NLTK",
+        "Pandas",
+        "Scikit-learn",
+        "NLP"
+      ],
+      "pipeline": "Raw text \u2192 Text preprocessing \u2192 Feature extraction \u2192 Model training \u2192 Sentiment prediction",
+      "live_url": "#",
+      "code_repo_url": "https://github.com/roynilakshi91/SentimentAnalysisOnTwitterData-PythonNLTK"
+    }
+  ],
+  "edaProjects": [
+    {
+      "title": "COVID Data Exploration in SQL",
+      "url": "https://github.com/roynilakshi91/COVID-19-Data-Exploration-Analysis-SQL/blob/main/readme.md"
+    },
+    {
+      "title": "Spotify DB Data Analysis in Python",
+      "url": "https://github.com/roynilakshi91/Spotify-Music-Data-Analysis-Visualization-Python/blob/main/README.md"
+    },
+    {
+      "title": "API Data Extraction & MongoDB Query Optimization",
+      "url": "https://github.com/roynilakshi91/Performance-Query-Optimization-with-MongoDB-on-API-Data"
+    }
+  ],
+  "visualizationProjects": [
+    {
+      "title": "Interactive Tableau Dashboards",
+      "url": "https://public.tableau.com/app/profile/nilakshi.roy/vizzes"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "TikTok",
+      "companyWebsite": "https://www.tiktok.com/",
+      "role": "Data Science and Analytics",
+      "startDate": "Aug 2022",
+      "endDate": "Present",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Tableau",
+        "Spark",
+        "Agentic AI and Automation"
+      ],
+      "keyResponsibilities": [
+        "Conducted exploratory data analysis across large-scale datasets; built end-to-end data pipelines and 20+ interactive dashboards with real-time metric monitoring.",
+        "Built behavioral prediction models using CatBoost on product usage, engagement, and account-level signals; validated through A/B testing and champion-challenger frameworks, achieving 98% precision.",
+        "Built agentic AI workflows using Claude and MCP for automated data retrieval, performance analysis, KPI monitoring, trend identification, and reporting, improving time efficiency by 86%.",
+        "Conducted customer segmentation and cohort analysis; applied causal inference and experimentation to evaluate feature impact, contributing to approximately 20% increase in global creator participation in U.S. campaigns.",
+        "Developed a device trust layer using TF-IDF and gradient boosting, increasing revenue by $11K/day."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Google",
+      "companyWebsite": "https://www.google.com/",
+      "role": "Data Specialist",
+      "startDate": "May 2021",
+      "endDate": "Aug 2022",
+      "technologies": [
+        "SQL",
+        "Excel",
+        "Apps Script",
+        "Salesforce",
+        "GCP"
+      ],
+      "keyResponsibilities": [
+        "Improved reporting dashboards and planning tools, reducing data processing time by 80%.",
+        "Automated Weekly Business Reports using Apps Script and Excel macros, reducing weekly effort by 25%.",
+        "Managed opportunity tracking, data integrity, and account mapping in Salesforce; developed SQL test scripts for automated ETL pipelines.",
+        "Partnered with GCP Sales Operations on KPI deep-dives and insights supporting GTM and sales strategy."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "Apple",
+      "companyWebsite": "https://www.apple.com/",
+      "role": "Data Reporting and Testing Analyst",
+      "startDate": "May 2020",
+      "endDate": "Mar 2021",
+      "technologies": [
+        "SQL",
+        "Tableau",
+        "Data Analysis"
+      ],
+      "keyResponsibilities": [
+        "Analyzed failure-analysis and pre-/post-release reports for iPhone, iPad, and Apple Watch iOS systems.",
+        "Queried server data and built flowcharts to visualize key dimensions and metrics.",
+        "Tracked bug reports with cross-functional triage teams and built interactive Tableau dashboards for daily executive reporting."
+      ]
+    },
+    {
+      "id": "4",
+      "company": "AIG",
+      "companyWebsite": "https://www.aig.com/",
+      "role": "Data Analyst",
+      "startDate": "Sep 2016",
+      "endDate": "Apr 2019",
+      "technologies": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "MS Access"
+      ],
+      "keyResponsibilities": [
+        "Analyzed large datasets to identify patterns and assess potential losses from natural calamities using MS Access, advanced Excel, and SQL.",
+        "Built Tableau dashboards and data visualizations to communicate risk patterns to stakeholders.",
+        "Collaborated with clients to understand requirements and deliver analytical solutions within timelines; mentored junior analysts and new hires."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "California State University - East Bay",
+      "degree": "Master\u2019s in Computer Science",
+      "description": "Add your education details, coursework, or relevant academic projects here.",
+      "startDate": "02/2020",
+      "endDate": "12/2021"
+    },
+        {
+      "id": "2",
+      "institution": "Christ University,Bangalore",
+      "degree": "Master\u2019s in Computer Science",
+      "description": "Add your education details, coursework, or relevant academic projects here.",
+      "startDate": "03/2014",
+      "endDate": "08/2016"
+    }
+
+    
+  ],
+  "testimonials": [],
+  "certifications": [],
+  "hobbies": []
+}
